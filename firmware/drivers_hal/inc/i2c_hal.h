@@ -69,7 +69,7 @@ bool I2CHalWrite( uint8_t register_address, const uint8_t *data, uint16_t length
  * @return true si la operación fue exitosa.
  * @return false en caso de error.
  */
-bool I2CHalRead( i2c_hal_device_t device, uint16_t register_address, i2c_hal_reg_addr_size_t addr_size, uint8_t *data, uint16_t length)
+bool I2CHalRead( i2c_hal_device_t device, uint16_t register_address, i2c_hal_reg_addr_size_t addr_size, uint8_t *data, uint16_t length);
 
 /**
  * @brief registra un dispositivo en I2C.
